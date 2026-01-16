@@ -51,7 +51,15 @@
 //op  - not eqaul
 //here values of user1 and user2 are same("saneesh"), but the memory-positons of user1 and user2 are different
 
-//in primitve
+// const user1={name:"saneesh"}
+// const user2={name:"saneesh"}
+// if(user1.name==user2.name){
+//     console.log("true")
+// }else{
+//     console.log("false")
+// }
+
+//in primitve - stored by value
 
 //let num1=10
 //let num2=num1   //here num2 stored the value of num1 (10)
@@ -66,7 +74,7 @@
 
 //op  -  false
 
-//in non-primitive
+//in non-primitive - stored by reference
 
 // const user1={name:"saneesh"}
 // const user2=user1   //here user2 stored the refernce of user1 
