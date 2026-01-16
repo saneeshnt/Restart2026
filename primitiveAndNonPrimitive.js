@@ -98,5 +98,71 @@
 //  console.log(user1,user2)
 
  //op  - {name:"subin"}{name:"subin"}
- //here reference of user1 and user2 are same therefore we changed the value user2 it  changed user1 also
+ //here reference of user1 and user2 are same therefore we changed the value user2, it  changed user1 also
 
+ 
+//typeof
+
+// let a=10
+// let b="10"
+// console.log(a)
+// console.log(typeof a)
+// console.log(b)
+// console.log(typeof b)
+
+
+// op -- 10
+//       number
+//       10
+//       string
+
+
+// let a=false
+// let b=0
+
+// if (a==b){
+//     console.log("true")
+
+// }else{
+//     console.log("false")
+// }
+
+// op  --true //here js automatically change the value of b 0 to false or false to 0,,
+//             //this is an edge case of js
+
+
+//Edge case of typeof
+
+// let a = null
+// let b="10"
+// console.log(typeof a)
+
+// op  -- object   //here the edge case of typeof 
+                   //this is the error accepted by java script for backward comapatibility
+
+
+//Array is an object
+
+// undefined
+
+// console.log(typeof undefined)
+
+// op   -- undefined
+
+
+// function 
+
+// let a = function(){}
+// console.log(typeof a)
+
+
+// op  -- function
+
+
+// Array.isArray[]
+
+
+// let a =[]
+// console.log(Array.isArray(a))
+
+// op  -- true
