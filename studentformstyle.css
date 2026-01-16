@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom:30px;
+}
+
+form {
+    color: rgb(0, 0, 0);
+    width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input, select {
+    width: 200px;
+    padding:5px;
+    margin-bottom: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-left: 40px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
