@@ -79,6 +79,102 @@
 
 
 
+// String
+
+// mainly 3 type 
+
+// ('',"",``)
+
+// const single ='saneesh'
+// const double= "anju"
+// const backtick=`get married`
+
+// const result=single + ' and ' + double
+// const result=`i'am ${single} and my girl is ${double} `
+
+// console.log(result)
+
+
+// length of String
+
+// const name ="saneesh"
+
+// console.log(name.length)  //=7
+
+// letter picking (charAt())
 
 
 
+// const result=name.charAt(0)
+// console.log( result)  //s
+
+
+//letter picking in (array[])
+
+
+// const result=name[0]
+// console.log( result)   //s
+
+// in case, empty string (charAt())
+
+// const name=""
+// const result="hi"+name.charAt(0)
+// console.log(result)   //hi
+
+// in case, empty string (array[])
+
+
+// const name=""
+// const result="hi "+name[0]
+// console.log(result)   //hi undefined
+
+// small string  to upper string (.toUpperCase)
+
+// const name="saneesh"
+// const result=name.toUpperCase()
+// console.log(result)  //SANEESH
+
+// only first letter
+// const result=name.charAt(0).toUpperCase()
+// console.log(result)  //S
+
+// .slice()
+
+// const name="saneesh"
+// const result=name.slice(1)
+// console.log(result)  //aneesh
+
+// const name="saneesh"
+// const result=name.slice(2)
+// console.log(result) //neesh
+
+// writing first letter to uppercase and the rest of letters in Normal
+
+// const name="saneesh"
+// const result=name.charAt(0).toUpperCase()+name.slice(1)
+// console.log(result) //Saneesh
+
+// .slice  More ...
+
+// const name = "JavaScript"
+// const result=name.slice(0)  //  JavaScript
+// const result=name.slice(0,4)   //Java
+//  const result=name.slice(4)    //Script
+
+//in minus(-) case,
+
+// const result=name.slice(-6)    //Script
+// const result=name.slice(-10)      //JavaScript
+// const result=name.slice(-10,-6)     //java
+// console.log(result) 
+
+// substring()
+
+// const name= "java"
+// const result=name.substring(4,1)  //ava
+// const result=name.substring(4,0)  //java
+// const result=name.substring(4,3)  //a
+// const result=name.substring(4)  //(empty)
+// const result=name.substring(1)  //ava
+// const result=name.substring(0)  //java
+// console.log(result)
