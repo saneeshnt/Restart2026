@@ -178,3 +178,92 @@
 // const result=name.substring(1)  //ava
 // const result=name.substring(0)  //java
 // console.log(result)
+
+
+// Loops
+
+// for loop
+// const value="javascript"
+// const length=value.length
+// let i
+// for(i=0;i<length;i++){
+//     console.log(value[i])
+// }
+
+
+// op -
+// j
+// a
+// v
+// a
+// s
+// c
+// r
+// i
+// p
+// t
+
+// while loop
+
+// const value="javascript"
+// const length=value.length
+// let i=0
+// while(i<length){
+//     console.log(value[i])
+//     i++
+
+// }
+
+
+// op -
+// j
+// a
+// v
+// a
+// s
+// c
+// r
+// i
+// p
+// t
+
+// do{}while()
+
+// const value = "javascript"
+// const length=value.length
+// let i=0
+// do{
+//     console.log(value[i])
+//     i++
+// }
+// while(i<length)
+
+
+    // string Reverse
+    
+    // for loop
+    // const value="javascript"
+    // const length=value.length
+    // let i 
+    // for(i=length;i>=0;i--){
+    //     console.log(value[i])
+    // }
+
+    // while 
+    // const value= "javascript"
+    // const length=value.length
+    // let i = length
+    // while(i>=0){
+    //     console.log(value[i])
+    //     i--
+    // }
+
+    // do{}wwhile() loop
+    // const value ="javascript"
+    // const length= value.length
+    // let i = length
+    // do{
+    //     console.log(value[i])
+    //     i--
+    // }
+    // while(i>=0)
